@@ -80,7 +80,7 @@
 
 			</div><!-- id-main -->
 		</main><!-- main -->
-
+		<script> console.log('%c Malvada doctora 🐽 ', 'background: #B35494; font-size: 22px; color: #ffffff');  </script>
 		<script src="https://code.jquery.com/jquery.js"></script>	
 		<script src="js/plugins.js"></script>
 		<script src="js/beetle.js"></script>

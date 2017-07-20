@@ -19,7 +19,7 @@
         if ($name != '' && $email != '' && $message != '') {
                 
             if (mail ($to, $subject, $body, $headers)) { 
-                echo '<p style="color:#66A325;">Thanks! Your message has been sent.</p>';
+                echo '<p style="color:#66A325;">Gracias tu mensaje fue enviado.</p>';
             } else { 
                 echo '<p style="color:#F84B3C;">Something went wrong, go back and try again!</p>'; 
             } 

@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="The Page Description">
 		<style type="text/css">@-ms-viewport{width: device-width;}</style>
-		<title>Beetle - Resume</title>
+		<title>A&iacute;da Zelegna | Contacto</title>
 		<link rel="stylesheet" href="css/layers.min.css" media="screen">
 		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
 		<link rel="stylesheet" href="style.css" media="screen">
@@ -71,10 +71,10 @@
 					
 				 <h3>Contacto</h3>
 				
-							<form class="contact-section">
-								<input  class="name plain buffer" type="text" placeholder="Tu nombre">
-								<input  class="email plain buffer" type="email" placeholder="Tu email">
-								<textarea class="plain buffer" placeholder="Escribeme un correo :)"></textarea>
+							<form class="contact-section" method="post" action="contact/contact.php" name="contact">
+								<input name="name" class="name plain buffer" type="text" placeholder="Tu nombre">
+								<input name="email" class="email plain buffer" type="email" placeholder="Tu email">
+								<textarea name="message" class="plain buffer" placeholder="Escribeme un correo :)"></textarea>
 								<input class="button transparent aqua" type="submit" value="Enviar">
 							</form>	<br><br><br><br><br><br><br>
 					
@@ -111,6 +111,7 @@
 		<script src="https://code.jquery.com/jquery.js"></script>		
 		<script src="js/plugins.js"></script>
 		<script src="js/beetle.js"></script>
+		<script src="js/base.js"></script>
 
 	</body>
 
